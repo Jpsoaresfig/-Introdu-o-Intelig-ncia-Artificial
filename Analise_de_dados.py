@@ -8,6 +8,7 @@
 # aplicando diversos algoritmos de aprendizado supervisionado e uma rede neural simples.
 
 # --- 2. Fonte e Descrição dos Dados ---
+import time
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -215,3 +216,6 @@ Referências:
 """
 
 print(conclusao)
+
+
+time.sleep(10)
